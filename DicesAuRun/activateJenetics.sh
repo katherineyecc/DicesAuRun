@@ -1,3 +1,3 @@
 #! /bin/sh
 cd /home/ubuntu/onos/bin
-sudo ./onos-app localhost activate abc.def.dices
+sudo ./onos-app localhost deactivate abc.def.dices
