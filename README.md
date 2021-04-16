@@ -112,7 +112,7 @@ If you get interrupted during running DicesRun.jar, please run the following com
 
 If you have already activated DICES in ONOS but failed in *pingall* (the result of 100% dropped), you should log into ONOS to check if the activation is completed successfully.
 
-`ssh -p 8101 onos@localhost -o StrictHostKeyChecking no`
+`ssh -p 8101 onos@localhost -o StrictHostKeyChecking=no`
 
 And it will prompt the password authentication. The password is ***rocks*** by default. Then you can see the ONOS CLI with **onos>**. Please type in:
 
